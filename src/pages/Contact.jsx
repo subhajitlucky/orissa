@@ -36,7 +36,7 @@ const Contact = () => {
                 visiting our repository:
               </p>
               <p>
-                <strong>Repository Link:</strong> 
+                <strong>Repository Link: </strong> 
                 <a href="https://github.com/subhajitlucky/orissa" target="_blank" rel="noopener noreferrer">
                   github.com/subhajitlucky/orissa
                 </a>
@@ -70,7 +70,7 @@ const Contact = () => {
           <p>
             Issues and pull requests are welcome on our 
             <a href="https://github.com/subhajitlucky/orissa" target="_blank" rel="noopener noreferrer">
-              GitHub repository
+               GitHub repository
             </a>. Together, we can make this the most comprehensive and accurate resource for information 
             about the incredible state of Odisha.
           </p>
