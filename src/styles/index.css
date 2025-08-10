@@ -1,0 +1,7 @@
+/* Main styles entry point */
+@import './components.css';
+@import './pages/PageTemplate.css';
+@import './pages/Home.css';
+@import './pages/Economy.css';
+@import './components/Navbar.css';
+@import './components/Footer.css';

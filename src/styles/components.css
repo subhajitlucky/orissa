@@ -1,0 +1,113 @@
+/* Reusable Card Components */
+.card {
+  background: var(--bg-light);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border-left: 4px solid var(--primary-color);
+}
+
+.card h3 {
+  color: var(--primary-color);
+  font-family: var(--font-serif);
+  margin-top: 0;
+}
+
+.card-small {
+  padding: var(--spacing-sm);
+  text-align: center;
+  border-left: 3px solid var(--primary-color);
+}
+
+.card-small h3 {
+  margin: var(--spacing-xs) 0;
+  font-size: 1.1rem;
+}
+
+/* Grid Layouts */
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.grid-auto-small {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--spacing-sm);
+  margin: var(--spacing-md) 0;
+}
+
+.grid-auto-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+/* Section Headers */
+.section-header {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-family: var(--font-serif);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Interactive Elements */
+.card:hover,
+.card-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  transition: all 0.3s ease;
+}
+
+/* Stats/Numbers Display */
+.stat-display {
+  background: var(--bg-light);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  text-align: center;
+  border-left: 3px solid var(--primary-color);
+}
+
+.stat-display h3 {
+  color: var(--primary-color);
+  font-family: var(--font-serif);
+  margin: var(--spacing-xs) 0;
+  font-size: 1.2rem;
+}
+
+.stat-display p {
+  margin: var(--spacing-xs) 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Image Containers */
+.image-container {
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-auto,
+  .grid-auto-small,
+  .grid-auto-large {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-header {
+    font-size: 1.5rem;
+  }
+}

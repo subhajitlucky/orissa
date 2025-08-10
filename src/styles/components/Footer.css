@@ -1,0 +1,16 @@
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.footer-content p {
+  margin: var(--spacing-xs) 0;
+  font-size: 1rem;
+}
+
+.footer-content p:first-child {
+  font-weight: 500;
+}
