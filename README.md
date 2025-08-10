@@ -33,119 +33,63 @@ A comprehensive and data-rich React-based website dedicated to showcasing the ri
 
 ### Installation
 
-1. Clone the repository:
+ # Incredible Odisha
+
+Incredible Odisha is a modern, interactive single-page React application that showcases the history, geography, culture, economy, and tourism highlights of Odisha, India.
+
+## Key Features
+
+- Interactive GDP growth chart with detailed on-hover tooltips
+- Dedicated sections: History, Geography, Economy, Culture, Tourism, Cuisine, People & Lifestyle, News & Events
+- Responsive design with CSS variables and modular components
+- High performance and accessibility best practices
+- Zero-config deployment to Vercel
+
+## Tech Stack
+
+- React (v19.x) & React Router
+- Vite for development and production builds
+- CSS3 (Grid, Flexbox) with custom design tokens
+- Hosted on Vercel for global CDN and instant previews
+
+## Getting Started
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/subhajitlucky/orissa.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
    cd orissa
    ```
-
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser at `http://localhost:5173`
 
-### Running the Development Server
-
-```bash
-npm run dev
-```
-
-The website will be available at `http://localhost:5173`
-
-### Building for Production
+## Production Build
 
 ```bash
 npm run build
 ```
 
-The optimized build will be in the `dist` folder.
+The optimized files will be available in the `dist/` folder.
 
-### Deployment
+## Deployment
 
-This project is configured for easy deployment to Vercel. Simply connect your GitHub repository to Vercel and it will automatically deploy on every push to the main branch.
-
-## Adding Images
-
-To add images to the website:
-
-1. Place your images in the `public` folder
-2. The images will be automatically available at the root path (e.g., `/image-name.jpg`)
-3. The website is already configured to use images with the following names:
-   - `hero-image.jpg` (Homepage hero background)
-   - `odisha-map.jpg` (Map of Odisha)
-   - `konark-temple.jpg` (Konark Sun Temple)
-   - `chilika-lake.jpg` (Chilika Lake)
-   - `odissi-dance.jpg` (Odissi Dance)
-   - `ancient-odisha.jpg` (History page)
-   - `kalinga-war.jpg` (Kalinga War)
-   - `eastern-ganga-dynasty.jpg` (Eastern Ganga Dynasty)
-   - `modern-odisha.jpg` (Modern Odisha)
-   - `odisha-landscape.jpg` (Geography page)
-   - `odisha-topography.jpg` (Topography)
-   - `mahanadi-river.jpg` (Mahanadi River)
-   - `odisha-climate.jpg` (Climate)
-   - `odisha-wildlife.jpg` (Wildlife)
-   - `odisha-economy.jpg` (Economy page)
-   - `odisha-agriculture.jpg` (Agriculture)
-   - `odisha-mining.jpg` (Mining)
-   - `odisha-industry.jpg` (Industry)
-   - `odisha-tourism.jpg` (Tourism)
-   - `odisha-culture.jpg` (Culture page)
-   - `odissi-dance-form.jpg` (Odissi Dance Form)
-   - `odisha-music.jpg` (Music)
-   - `odisha-handicrafts.jpg` (Handicrafts)
-   - `odisha-literature.jpg` (Literature)
-   - `odisha-festivals.jpg` (Festivals)
-   - `odisha-tourism-places.jpg` (Tourism Places)
-   - `jagannath-temple.jpg` (Jagannath Temple)
-   - `puri-beach.jpg` (Puri Beach)
-   - `simlipal-national-park.jpg` (Simlipal National Park)
-   - `odisha-tribal-tourism.jpg` (Tribal Tourism)
-   - `odisha-cuisine.jpg` (Cuisine page)
-   - `odia-dishes.jpg` (Odia Dishes)
-   - `odisha-sweets.jpg` (Sweets)
-   - `regional-odisha-cuisine.jpg` (Regional Cuisine)
-   - `traditional-cooking.jpg` (Traditional Cooking)
-   - `odisha-people.jpg` (People page)
-   - `odisha-tribes.jpg` (Tribes)
-   - `odisha-languages.jpg` (Languages)
-   - `odisha-village-life.jpg` (Village Life)
-   - `odisha-news.jpg` (News page)
-   - `rath-yatra.jpg` (Rath Yatra)
-   - `odisha-sports.jpg` (Sports)
-   - `odisha-government.jpg` (Government)
-   - `odisha-contact.jpg` (Contact page)
-   - `bhubaneswar-city.jpg` (Bhubaneswar City)
-
-## Data Sources
-
-This website includes factual data from various reliable sources:
-- Archaeological Survey of India
-- Odisha State Statistical Bureau
-- Ministry of Tourism, Government of India
-- UNESCO World Heritage Sites documentation
-- Historical texts and inscriptions
+Push to the `main` branch, and Vercel will automatically build and deploy the latest version.
 
 ## Contributing
 
-We welcome contributions to make this the ultimate resource for information about Odisha! You can contribute in several ways:
+We welcome contributions! Please fork, create a feature branch, commit your changes, and submit a pull request.
 
-1. **Content Improvements**: Add more historical facts, cultural information, or correct existing data
-2. **Images**: Provide high-quality photographs of Odisha's landmarks, culture, and people
-3. **Bug Fixes**: Report or fix any issues with the website
-4. **Feature Enhancements**: Suggest or implement new features
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
-To contribute:
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes
-4. Submit a pull request
+## License
 
-Visit our GitHub repository: [github.com/subhajitlucky/orissa](https://github.com/subhajitlucky/orissa)
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## License
 
